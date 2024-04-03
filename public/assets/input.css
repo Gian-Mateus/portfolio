@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.presentation > :nth-child(1){
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 10px solid #c40000;
+    animation: 
+    expanse 3.5s steps(40, end),
+    pulseCursor 0.75s 5 forwards;
+}
+
+.first-span{
+    visibility: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 10px solid #c40000;
+    animation: 
+    expanse 3.5s 4s steps(40, end),
+    pulseCursor 0.75s 4s infinite;
+}
+
+@keyframes pulseCursor {
+    from, to { border-color: transparent }
+    50% { border-color: #c40000; }
+}
+
+@keyframes expanse{
+    from {width: 0;}
+    to {width: 100%;}
+}
+
