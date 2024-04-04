@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/ControlRoutes/Routes.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -30,7 +30,6 @@ require_once __DIR__.'/../vendor/autoload.php';
     </nav>
     <div id="app" class="container min-h-full mx-auto flex flex-col flex-1 justify-center items-center">
       <?php
-        use App\ControlRoutes\Routes;
         Routes::render()
       ?>
     </div>
@@ -42,6 +41,6 @@ require_once __DIR__.'/../vendor/autoload.php';
         require_once __DIR__."/views/footer.php";
       }
     ?>
-    <script src="../public/main.js"></script>
+    <script src="../public/app.js"></script>
   </body>
 </html>

@@ -1,7 +1,5 @@
 <?php
 
-namespace App\ControlRoutes;
-
 class Routes{
     public static function render(){
         // Get current URL
