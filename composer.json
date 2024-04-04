@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "php -S localhost:8000 -t api/public/"
+        "start": "php -S localhost:8000 -t ./"
         },
         "config": {
             "process-timeout": 3600

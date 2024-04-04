@@ -19,6 +19,6 @@
         </h1>
     </div>
     <div class="mx-auto">
-        <img class="min-w-[200px] max-w-80 h-auto rounded-lg " src="./assets/imgs/mypicture.jpg" alt="">
+        <img class="min-w-[200px] max-w-80 h-auto rounded-lg " src="../assets/imgs/mypicture.jpg" alt="">
     </div>
 </div>
