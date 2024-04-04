@@ -2,7 +2,6 @@
   "name": "site",
   "version": "1.0.0",
   "description": "Site de portifólio",
-  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npx tailwindcss -i ./public/assets/input.css -o ./public/assets/style.css --watch"
