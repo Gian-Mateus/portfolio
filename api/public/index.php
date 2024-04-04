@@ -7,8 +7,8 @@ echo $path = __DIR__;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="<?php echo $path?>/assets/svgs/escanor-logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="<?php echo $path?>/assets/style.css">
+    <link rel="shortcut icon" href="<?php echo $path?>/../../assets/svgs/escanor-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="<?php echo $path?>/../../assets/style.css">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Gian Mateus- Desenvolvedor Web</title>
   </head>
@@ -43,6 +43,6 @@ echo $path = __DIR__;
         require_once __DIR__."/../public/views/footer.php";
       }
     ?>
-    <script src="/assets/main.js"></script>
+    <script src="<?php echo $path?>/../../assets/main.js"></script>
   </body>
 </html>
