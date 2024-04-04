@@ -9,11 +9,11 @@ class Routes{
         $params = array_filter(explode("/", $url));
         
         if($url == "/"){
-            $view =  require_once __DIR__."/../public/views/home.php";
+            $view =  require_once __DIR__."/../views/home.php";
         } else if(end($params) == "index.php" || end($params) == "index"){
-            $view = require_once __DIR__."/../public/views/home.php";
+            $view = require_once __DIR__."/../views/home.php";
         } else {
-            $view = require_once __DIR__."/../public/views/".end($params).".php";
+            $view = require_once __DIR__."/../views/".end($params).".php";
         }
         return $view;
     }
